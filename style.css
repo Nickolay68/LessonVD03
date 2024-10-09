@@ -1,0 +1,79 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00FF00; /* Цвет фона для страницы */
+    color: #333;
+}
+
+/* Стили для шапки */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень под шапкой */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #555 !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important; /* Цвет ссылки при наведении */
+}
+
+/* Стили для слайдера */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover; /* Изображение будет обрезано, если слишком большое */
+}
+
+/* Стили для карточек */
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Стили для аккордеона */
+.card-header {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+.card-header button {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #343a40;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
